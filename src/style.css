@@ -55,6 +55,15 @@ footer {
   border-radius: 50px;
 }
 
+.email.wrong {
+  border-color: var(--vermelho);
+  color: var(--vermelho);
+}
+.password.wrong {
+  border-color: var(--vermelho);
+  color: var(--vermelho);
+}
+
 .input {
   display: flex;
   align-items: center;
