@@ -6,6 +6,7 @@
     <title>Grab - Login</title>
 
     <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -17,8 +18,15 @@
 
         <div class="user-input">
           <form action="login">
-            <input type="text" name="email" id="email" placeholder="@" required>
-            <input type="password" name="password" id="password" placeholder="@" required>
+            <div class="input">
+              <i class="material-icons">assignment_ind</i>
+              <input type="text" name="email" id="email"  required>
+            </div>
+            <div class="input">
+                <i class="material-icons">lock_outline</i>
+              <input type="password" name="password" id="password" required>
+                
+            </div>
             <input type="submit" value="Entrar" class="button">
           </form>
         </div>
